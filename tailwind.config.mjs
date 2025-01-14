@@ -7,9 +7,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'libre-baskerville': ['Libre Baskerville', 'sans-serif'],
+        'libre-franklin': ['Libre Franklin', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'lotion': '#FAFAFA',
+        'temptress': '#322020',
+        'blond': '#F7F2BC',
+        'aero-blue': '#BDF6E1',
+        'soap': '#D0BCF9',
+        'cotton-candy': '#F8BCDC',
       },
     },
   },

@@ -1,0 +1,28 @@
+.tab-wrapper {
+  @apply flex flex-col justify-center fixed z-50 w-12;
+  inset: 0 0 0 auto;
+}
+
+.tab {
+  @apply rounded-tl-3xl rounded-bl-3xl flex justify-center items-center w-16 h-40 uppercase text-xs z-50;
+}
+
+.tab > p {
+  @apply whitespace-nowrap rotate-[270deg];
+}
+
+.tab:first-child {
+  @apply bg-blond;
+}
+
+.tab:nth-child(2) {
+  @apply bg-aero-blue;
+}
+
+.tab:nth-child(3) {
+  @apply bg-soap;
+}
+
+.tab:nth-child(4) {
+  @apply bg-cotton-candy;
+}

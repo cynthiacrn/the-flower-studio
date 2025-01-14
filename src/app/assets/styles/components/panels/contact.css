@@ -1,0 +1,11 @@
+.contact-panel__container {
+  @apply h-screen w-screen flex justify-center items-center bg-cotton-candy py-24 px-48 gap-16;
+}
+
+.contact-panel__content {
+  @apply flex flex-col items-center gap-12;
+}
+
+.contact-panel__text {
+  @apply text-center text-7xl;
+}

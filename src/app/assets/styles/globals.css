@@ -1,0 +1,29 @@
+@import "fonts/libre-baskerville.css";
+@import "fonts/libre-franklin.css";
+
+@import "components/tab-bar.css";
+@import "components/panels/main.css";
+@import "components/panels/services.css";
+@import "components/panels/professionals.css";
+@import "components/panels/about.css";
+@import "components/panels/contact.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ @apply overflow-x-hidden;
+}
+
+* {
+  @apply font-libre-franklin;
+}
+
+.panel-wrapper {
+  @apply h-[100vh] w-[500vw] flex flex-row relative overflow-y-hidden;
+}
+
+.panel {
+  @apply relative;
+}
