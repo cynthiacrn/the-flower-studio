@@ -1,11 +1,31 @@
 .services-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-blond py-24 px-48 gap-16;
+  @apply h-screen w-screen flex justify-center items-center bg-blond py-12 px-[170px];
 }
 
 .services-panel__content {
-  @apply flex flex-col items-center gap-12;
+  @apply flex flex-col gap-16;
+}
+
+.services-panel__content-section {
+  @apply flex flex-row justify-between gap-[138px] items-start;
+}
+
+.services-panel__content-image {
+  @apply flex justify-center items-center h-[190px] w-1/4;
+}
+
+.services-panel__content-image svg {
+  @apply h-full w-full object-contain;
+}
+
+.services-panel__text-content {
+  @apply flex flex-col gap-2 w-3/4;
+}
+
+.services-panel__title {
+  @apply text-5xl uppercase font-gill-sans;
 }
 
 .services-panel__text {
-  @apply text-center text-7xl;
+  @apply text-base font-eb-garamond;
 }

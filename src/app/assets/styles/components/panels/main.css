@@ -19,5 +19,5 @@
 }
 
 .main-panel__image {
-  @apply h-full w-full object-cover;
+  @apply max-h-[611px] w-auto object-cover;
 }
