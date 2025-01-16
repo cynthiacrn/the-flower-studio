@@ -1,11 +1,23 @@
 .main-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-lotion py-24 px-48 gap-16;
+  @apply h-screen w-screen flex justify-center items-center bg-lotion py-12 px-[170px];
 }
 
 .main-panel__content {
-  @apply flex flex-col items-center gap-12;
+  @apply flex flex-col gap-6;
+}
+
+.main-panel__content-header {
+  @apply flex flex-row items-end gap-[138px] h-4/5;
+}
+
+.main-panel__title {
+  @apply uppercase text-8xl font-gill-sans leading-[77px] max-w-[545px];
 }
 
 .main-panel__text {
-  @apply text-center text-7xl;
+  @apply font-eb-garamond text-2xl leading-[44px] max-w-[545px] h-1/5;
+}
+
+.main-panel__image {
+  @apply h-full w-full object-cover;
 }

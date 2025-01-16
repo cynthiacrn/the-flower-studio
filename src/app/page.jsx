@@ -42,11 +42,11 @@ export default function Page() {
           trigger: panelContainerEl,
           start: 'top top',
           end: `+=${panelContainerEl.scrollWidth - window.innerWidth}`,
-          scrub: 0.5,
+          scrub: 1,
           pin: true,
           snap: {
             snapTo: snapPoints,
-            duration: { min: 0.1, max: 0.2 },
+            duration: { min: 0.4, max: 1 },
             ease: 'Power1.easeOut',
           },
         },

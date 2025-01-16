@@ -1,5 +1,7 @@
 @import "fonts/libre-baskerville.css";
 @import "fonts/libre-franklin.css";
+@import "fonts/gill-sans.css";
+@import "fonts/eb-garamond.css";
 
 @import "components/tab-bar.css";
 @import "components/panels/main.css";

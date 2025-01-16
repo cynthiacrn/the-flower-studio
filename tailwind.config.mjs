@@ -10,6 +10,8 @@ export default {
       fontFamily: {
         'libre-baskerville': ['Libre Baskerville', 'sans-serif'],
         'libre-franklin': ['Libre Franklin', 'sans-serif'],
+        'gill-sans': ['Gill Sans', 'sans-serif'],
+        'eb-garamond': ['EB Garamond', 'sans-serif'],
       },
       colors: {
         'lotion': '#FAFAFA',
