@@ -1,5 +1,5 @@
 .contact-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-cotton-candy py-24 px-48 gap-16;
+  @apply h-screen w-screen flex justify-center items-center bg-soap py-24 px-48 gap-16;
 }
 
 .contact-panel__content {

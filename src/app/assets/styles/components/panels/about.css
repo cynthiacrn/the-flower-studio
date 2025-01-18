@@ -1,11 +1,15 @@
 .about-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-soap py-24 px-48 gap-16;
+  @apply h-screen w-screen flex justify-center bg-cotton-candy pb-24 pt-24 px-48 gap-16 relative;
 }
 
 .about-panel__content {
-  @apply flex flex-col items-center gap-12;
+  @apply flex flex-col items-center justify-between;
+}
+
+.about-panel__content-image {
+  @apply absolute h-[300px] w-[300px] left-[40%] top-32;
 }
 
 .about-panel__text {
-  @apply text-center text-7xl;
+  @apply text-center text-[158px] uppercase leading-none font-gill-sans;
 }
