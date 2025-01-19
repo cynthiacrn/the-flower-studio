@@ -4,6 +4,7 @@
 @import "fonts/eb-garamond.css";
 
 @import "components/tab-bar.css";
+@import "components/footer.css";
 @import "components/panels/main.css";
 @import "components/panels/services.css";
 @import "components/panels/professionals.css";

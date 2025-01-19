@@ -1,0 +1,7 @@
+.footer-svg {
+  @apply h-7 w-7;
+}
+
+.footer-link-svg:hover .footer-svg {
+  stroke: #D0BCF9;
+}
