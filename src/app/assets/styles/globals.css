@@ -8,7 +8,6 @@
 @import "components/panels/services.css";
 @import "components/panels/professionals.css";
 @import "components/panels/about.css";
-@import "components/panels/contact.css";
 
 @tailwind base;
 @tailwind components;

@@ -7,7 +7,6 @@ import MainPanel from '@/app/components/MainPanel'
 import ServicesPanel from '@/app/components/ServicesPanel'
 import GalleryPanel from '@/app/components/ProfessionalsPanel'
 import AboutPanel from '@/app/components/AboutPanel'
-import ContactPanel from '@/app/components/ContactPanel'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -16,7 +15,6 @@ const panelsData = [
   { name: 'Services', component: ServicesPanel, width: 1 },
   { name: 'Professionals', component: GalleryPanel, width: 1 },
   { name: 'About', component: AboutPanel, width: 1 },
-  { name: 'Contact', component: ContactPanel, width: 1 },
 ]
 
 export default function Page() {
