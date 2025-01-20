@@ -17,6 +17,9 @@ export default function MainPanel() {
           <p className="main-panel__text">
             Between lakes and mountains, an environment that provides daily inspiration: reflecting our natural, poetic, and slightly wild universe.
           </p>
+          <div className="main-panel__image-mobile">
+            <MainImage />
+          </div>
         </div>
       </div>
       <Footer />

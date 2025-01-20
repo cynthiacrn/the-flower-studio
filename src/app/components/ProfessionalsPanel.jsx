@@ -8,14 +8,12 @@ export default function ProfessionalsPanel() {
         <div className="professionals-panel__content-image">
           <ProfessionalsImage />
         </div>
-        <div className="w-1/3">
-
-        </div>
+        <div className="sm:w-1/3 sm:flex hidden"></div>
         <div className="professionals-panel__content">
           <h1 className="professionals-panel__title">
             PROFESSIONALS
           </h1>
-          <div className="flex flex-row gap-6 font-eb-garamond">
+          <div className="professionals-panel__text-container">
             <div>
               Whether it's for a gathering, conference, or product launch, flowers add a refined and welcoming touch to your professional events. Your florist artisan in Geneva will guide you in creating bespoke floral arrangements perfectly tailored to your brand and objectives.
             </div>

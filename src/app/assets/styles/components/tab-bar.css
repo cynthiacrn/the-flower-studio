@@ -1,5 +1,5 @@
 .tab-wrapper {
-  @apply flex flex-col justify-center fixed z-50 w-12;
+  @apply sm:flex hidden flex-col justify-center fixed z-50 w-12;
   inset: 0 0 0 auto;
 }
 

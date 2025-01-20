@@ -1,19 +1,23 @@
 .professionals-panel__container {
-  @apply h-screen w-screen flex flex-row justify-center items-start bg-aero-blue py-24 px-48 gap-16 relative;
+  @apply h-screen w-screen flex flex-row justify-center items-start bg-aero-blue sm:py-24 py-12 px-12 sm:px-48 gap-16 relative;
 }
 
 .professionals-panel__content {
-  @apply flex flex-col items-start gap-6 w-2/3 z-10 pt-32;
+  @apply flex flex-col items-start gap-6 sm:w-2/3 w-full z-10 pt-32;
 }
 
 .professionals-panel__title {
-  @apply uppercase text-8xl font-gill-sans leading-[52px];
+  @apply uppercase sm:text-8xl text-5xl font-gill-sans leading-[52px];
 }
 
 .professionals-panel__content-image {
-  @apply absolute h-[769px] bottom-0 left-40;
+  @apply absolute sm:flex hidden h-[769px] bottom-0 left-40;
 }
 
 .professionals-panel__content-image svg {
   @apply h-full w-full object-contain;
+}
+
+.professionals-panel__text-container {
+  @apply flex sm:flex-row flex-col gap-6 font-eb-garamond;
 }

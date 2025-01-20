@@ -19,7 +19,7 @@ body {
 }
 
 .panel-wrapper {
-  @apply h-[100vh] w-[500vw] flex flex-row relative overflow-y-hidden;
+  @apply h-[100vh] sm:w-[500vw] sm:flex hidden flex-row relative overflow-y-hidden;
 }
 
 .panel {

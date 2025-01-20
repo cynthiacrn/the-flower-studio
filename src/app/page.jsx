@@ -84,6 +84,13 @@ export default function Page() {
           </div>
         ))}
       </div>
+      <div className="flex flex-col">
+        {panelsData.map(({ component: Component }, i) => (
+          <div key={i}>
+            <Component />
+          </div>
+        ))}
+      </div>
       <div className="tab-wrapper">
         {panelsData.slice(1).map(({ name }, i) => (
           <div key={i} className={`tab tab-${i + 1}`}><p>{name}</p></div>

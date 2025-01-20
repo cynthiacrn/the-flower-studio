@@ -1,5 +1,5 @@
 .services-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-blond py-12 px-[170px];
+  @apply sm:h-screen h-full w-screen flex justify-center items-center bg-blond py-12 px-12 sm:px-[170px];
 }
 
 .services-panel__content {
@@ -7,7 +7,7 @@
 }
 
 .services-panel__content-section {
-  @apply flex flex-row justify-between gap-[138px] items-start;
+  @apply flex sm:flex-row flex-col justify-between sm:gap-[138px] gap-6 items-start;
 }
 
 .services-panel__content-image {

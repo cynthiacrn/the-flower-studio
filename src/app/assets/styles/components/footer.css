@@ -1,7 +1,11 @@
-.footer-svg {
+.footer__container {
+  @apply absolute bottom-0 py-8 px-40 w-full sm:flex hidden flex-row justify-end items-end gap-2;
+}
+
+.footer__svg {
   @apply h-6 w-6;
 }
 
-.footer-link-svg:hover .footer-svg {
+.footer__link-svg:hover .footer__svg {
   stroke: #D0BCF9;
 }

@@ -1,7 +1,7 @@
 import './assets/styles/globals.css'
 
 export const metadata = {
-  title: "Layout panel demo",
+  title: "The Flower Studio",
 }
 
 export default function RootLayout({ children }) {

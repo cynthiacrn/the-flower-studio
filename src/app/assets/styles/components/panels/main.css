@@ -1,5 +1,5 @@
 .main-panel__container {
-  @apply h-screen w-screen flex justify-center items-center bg-lotion py-12 px-[170px];
+  @apply h-screen w-screen flex justify-center sm:items-center items-start bg-lotion py-12 sm:px-[170px] px-12;
 }
 
 .main-panel__content {
@@ -11,7 +11,7 @@
 }
 
 .main-panel__title {
-  @apply uppercase text-8xl font-gill-sans leading-[77px] max-w-[545px];
+  @apply uppercase sm:text-8xl text-6xl font-gill-sans sm:leading-[77px] leading-none max-w-[545px];
 }
 
 .main-panel__text {
@@ -19,5 +19,9 @@
 }
 
 .main-panel__image {
-  @apply max-h-[611px] w-auto object-cover;
+  @apply max-h-[611px] w-auto sm:flex hidden object-cover;
+}
+
+.main-panel__image-mobile {
+  @apply max-h-[250px] w-auto sm:hidden flex object-cover;
 }

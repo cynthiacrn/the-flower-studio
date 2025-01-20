@@ -22,7 +22,7 @@ export default function ServicesPanel() {
             </div>
           </div>
 
-          <div className="services-panel__content-section flex-row-reverse">
+          <div className="services-panel__content-section sm:flex-row-reverse">
             <div className="services-panel__content-image">
               <SecondServicesImage />
             </div>
