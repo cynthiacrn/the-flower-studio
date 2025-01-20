@@ -64,7 +64,7 @@ export default function Page() {
           trigger: panel,
           scrub: true,
           pin: true,
-          start: `top ${(panelsData[i].width - 1.0008) * -100}%`,
+          start: `top ${(panelsData[i].width - 1.0002) * -100}%`,
           end: () => `+=${panel.clientWidth}`,
         },
       })

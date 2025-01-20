@@ -1,5 +1,5 @@
 .footer-svg {
-  @apply h-7 w-7;
+  @apply h-6 w-6;
 }
 
 .footer-link-svg:hover .footer-svg {
