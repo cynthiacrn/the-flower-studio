@@ -21,6 +21,9 @@ export default function ProfessionalsPanel() {
               Whether your needs are one-time or ongoing, every detail is thoughtfully considered to ensure your event stands out and leaves a lasting impression on your guests. Discover our services dedicated to businesses to elevate your spaces and professional events.
             </div>
           </div>
+          <div className="professionals-panel__content-image-mobile">
+            <ProfessionalsImage />
+          </div>
         </div>
       </div>
       <Footer />

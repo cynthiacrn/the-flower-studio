@@ -84,7 +84,7 @@ export default function Page() {
           </div>
         ))}
       </div>
-      <div className="flex flex-col">
+      <div className="sm:hidden flex flex-col">
         {panelsData.map(({ component: Component }, i) => (
           <div key={i}>
             <Component />

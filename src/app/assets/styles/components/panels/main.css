@@ -19,7 +19,7 @@
 }
 
 .main-panel__image {
-  @apply max-h-[611px] w-auto sm:flex hidden object-cover;
+  @apply h-[611px] w-auto sm:flex hidden object-cover;
 }
 
 .main-panel__image-mobile {

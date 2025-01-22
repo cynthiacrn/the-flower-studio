@@ -1,9 +1,9 @@
 .professionals-panel__container {
-  @apply h-screen w-screen flex flex-row justify-center items-start bg-aero-blue sm:py-24 py-12 px-12 sm:px-48 gap-16 relative;
+  @apply sm:h-screen h-fit w-screen flex flex-row justify-center items-start bg-aero-blue sm:py-24 py-12 px-12 sm:px-48 gap-16 relative;
 }
 
 .professionals-panel__content {
-  @apply flex flex-col items-start gap-6 sm:w-2/3 w-full z-10 pt-32;
+  @apply flex flex-col items-start gap-12 sm:gap-6 sm:w-2/3 w-full z-10 sm:pt-32 pt-0;
 }
 
 .professionals-panel__title {
@@ -20,4 +20,8 @@
 
 .professionals-panel__text-container {
   @apply flex sm:flex-row flex-col gap-6 font-eb-garamond;
+}
+
+.professionals-panel__content-image-mobile {
+  @apply sm:hidden flex h-[200px] w-full;
 }

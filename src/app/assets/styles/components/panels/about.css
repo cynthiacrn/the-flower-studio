@@ -1,15 +1,15 @@
 .about-panel__container {
-  @apply h-screen w-screen flex justify-center bg-cotton-candy pb-24 pt-24 px-48 gap-16 relative;
+  @apply sm:h-screen h-fit w-screen flex justify-center bg-cotton-candy pb-12 pt-12 sm:pb-24 sm:pt-24 px-12 sm:px-48 gap-16 relative;
 }
 
 .about-panel__content {
-  @apply flex flex-col items-center justify-between;
+  @apply flex flex-col items-center sm:justify-between justify-start gap-12 sm:gap-0;
 }
 
 .about-panel__content-image {
-  @apply absolute h-[300px] w-[300px] left-[40%] top-32;
+  @apply absolute sm:h-[300px] h-[150px] sm:w-[300px] w-[150px] sm:left-[40%] sm:top-32;
 }
 
 .about-panel__text {
-  @apply text-center text-[158px] uppercase leading-none font-gill-sans;
+  @apply text-center sm:text-[158px] text-5xl uppercase leading-none font-gill-sans;
 }
