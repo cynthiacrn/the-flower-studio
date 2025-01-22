@@ -8,7 +8,7 @@ export default function ProfessionalsPanel() {
         <div className="professionals-panel__content-image">
           <ProfessionalsImage />
         </div>
-        <div className="sm:w-1/3 sm:flex hidden"></div>
+        <div className="xl:w-1/3 xl:flex hidden"></div>
         <div className="professionals-panel__content">
           <h1 className="professionals-panel__title">
             PROFESSIONALS

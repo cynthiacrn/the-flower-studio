@@ -3,7 +3,7 @@
 }
 
 .professionals-panel__content {
-  @apply flex flex-col items-start gap-12 sm:gap-6 sm:w-2/3 w-full z-10 sm:pt-32 pt-0;
+  @apply flex flex-col items-start gap-12 sm:gap-6 xl:w-2/3 w-full z-10 sm:pt-32 pt-0;
 }
 
 .professionals-panel__title {

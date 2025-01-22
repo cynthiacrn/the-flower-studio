@@ -3,11 +3,11 @@
 }
 
 .about-panel__content {
-  @apply flex flex-col items-center sm:justify-between justify-start gap-12 sm:gap-0;
+  @apply flex flex-col items-center xl:justify-between justify-start gap-12 sm:gap-0;
 }
 
 .about-panel__content-image {
-  @apply absolute sm:h-[300px] h-[150px] sm:w-[300px] w-[150px] sm:left-[40%] sm:top-32;
+  @apply absolute sm:h-[300px] h-[150px] sm:w-[300px] w-[150px] xl:left-[40%] xl:top-32;
 }
 
 .about-panel__text {

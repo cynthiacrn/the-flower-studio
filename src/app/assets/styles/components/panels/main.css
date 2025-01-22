@@ -1,5 +1,5 @@
 .main-panel__container {
-  @apply h-screen w-screen flex justify-center sm:items-center items-start bg-lotion py-12 sm:px-[170px] px-12;
+  @apply sm:h-screen h-fit w-screen flex justify-center sm:items-center items-start bg-lotion py-12 sm:px-[170px] px-12;
 }
 
 .main-panel__content {
@@ -7,7 +7,7 @@
 }
 
 .main-panel__content-header {
-  @apply flex flex-row items-end gap-[138px] h-4/5;
+  @apply flex flex-row items-end xl:gap-[138px] sm:gap-12 h-4/5;
 }
 
 .main-panel__title {
