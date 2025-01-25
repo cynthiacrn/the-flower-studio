@@ -11,7 +11,7 @@
 }
 
 .services-panel__content-image {
-  @apply flex justify-center items-center h-[190px] w-1/4;
+  @apply flex justify-center items-center h-[190px] w-1/4 opacity-0;
 }
 
 .services-panel__content-image svg {

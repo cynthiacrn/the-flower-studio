@@ -1,12 +1,56 @@
+import {useEffect, useRef} from 'react'
 import FirstServicesImage from '@/app/components/svg/FirstServicesImage'
 import SecondServicesImage from '@/app/components/svg/SecondServicesImage'
 import ThirdServicesImage from '@/app/components/svg/ThirdServicesImage'
-import Footer from "@/app/components/Footer";
+import Footer from '@/app/components/Footer'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 export default function ServicesPanel() {
+  const containerRef =useRef()
+
+  useEffect(() => {
+    gsap.fromTo(
+      '.services-panel__content-image',
+      { x: 400, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 3,
+        ease: 'power3.inOut',
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top -100%',
+          // end: '50% -10%',
+          scrub: true,
+          markers: true
+        },
+      }
+    )
+    //
+    // gsap.fromTo(
+    //   text,
+    //   { x: -50, opacity: 0 },
+    //   {
+    //     x: 25,
+    //     opacity: 1,
+    //     duration: 1.5,
+    //     ease: 'power3.inOut',
+    //     scrollTrigger: {
+    //       trigger: section,
+    //       start: 'top bottom',
+    //       end: 'bottom top',
+    //       scrub: true,
+    //     },
+    //   }
+    // )
+  }, [])
+
   return (
     <div className="relative">
-      <div className="services-panel__container">
+      <div  ref={containerRef} className="services-panel__container">
         <div className="services-panel__content">
           <div className="services-panel__content-section">
             <div className="services-panel__content-image">
